@@ -1,0 +1,6 @@
+
+
+ALTER TABLE memo ALTER COLUMN nourut INT;
+
+UPDATE [memo] SET jenis=1 WHERE jenis=3
+UPDATE [memo] SET jenis=2 WHERE jenis=4
